@@ -535,6 +535,9 @@ button {
     column-gap: 24px;
     row-gap: 72px;
   }
+  .advantages-list-text {
+    margin-bottom: 0px;
+  }
 }
 
 @media screen and (min-width: 1158px) {
@@ -1001,7 +1004,8 @@ button {
     flex-wrap: wrap;
     row-gap: 72px;
     column-gap: 24px;
-    padding: 96px 164px 96px 108px;
+    padding: 96px 0px;
+    width: 584px;
   }
   .footer-logo {
     display: block;
@@ -1037,6 +1041,7 @@ button {
     flex-wrap: nowrap;
     padding: 100px 15px;
     gap: 0px;
+    width: 1158px;
   }
   .footer-containerr {
     margin-right: 80px;
